@@ -9,8 +9,8 @@ spec:
   interval: 1m0s
   ref:
     branch: master
-  secretRef:
-    name: fluxcd-infra
+  #secretRef:
+  #  name: fluxcd-infra
   url: https://github.com/romanfurst/fluxcd-infra.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
